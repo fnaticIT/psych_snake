@@ -1,0 +1,36 @@
+
+.board {
+  outline: 2px solid rgb(30, 247, 210);
+}
+
+.row {
+  height: 35px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  outline: 1px solid rgb(30, 247, 210);
+  display: inline-block;
+}
+
+.cell-green {
+  background-color: cyan;
+}
+
+.cell-red {
+  background-color: rgb(236, 247, 179);
+}
+.scoreb{
+  display: flex;
+}
+.hscore{
+  margin-left: 100px;
+}
+
+.but{
+  margin-left: 30px;
+}
+.cell-purple {
+  background-color: rgb(243, 146, 243);
+}
